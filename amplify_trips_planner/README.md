@@ -1,16 +1,19 @@
-# amplify_trips_planner
+# preparation
+```bash
+flutter pub get
+```
 
-A new Flutter project.
+```bash
+amplify init
+```
 
-## Getting Started
+```bash
+amplify add auth
+amplify push
+```
 
-This project is a starting point for a Flutter application.
+- Default Setting, Email を選択
+- Advanced settings は "No, I am done." を選択
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
