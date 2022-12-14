@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifytripsplanner993c7e53_identitypool_993c7e53",
+    "identityPoolName": "amplifytripsplanner4ce57118_identitypool_4ce57118",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif993c7e53",
-    "userPoolName": "amplifytripsplanner993c7e53_userpool_993c7e53",
+    "resourceNameTruncated": "amplif4ce57118",
+    "userPoolName": "amplifytripsplanner4ce57118_userpool_4ce57118",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif993c7e53_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplif4ce57118_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "993c7e53",
-    "resourceName": "amplifytripsplanner993c7e53",
+    "sharedId": "4ce57118",
+    "resourceName": "amplifytripsplanner4ce57118",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [

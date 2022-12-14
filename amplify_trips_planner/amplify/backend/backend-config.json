@@ -1,6 +1,6 @@
 {
   "auth": {
-    "amplifytripsplanner993c7e53": {
+    "amplifytripsplanner4ce57118": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
