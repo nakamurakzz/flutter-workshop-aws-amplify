@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/trips",
+      "lambdaFunction": "amplifyTripApiFunction",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/trips"
+    }
+  ],
+  "resourceName": "apica0fa89f",
+  "apiName": "apica0fa89f",
+  "functionArns": [
+    {
+      "lambdaFunction": "amplifyTripApiFunction"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-amplifytripsplanner-dev-35307-authRole",
+    "unAuthRoleName": "amplify-amplifytripsplanner-dev-35307-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "amplifyTripApiFunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

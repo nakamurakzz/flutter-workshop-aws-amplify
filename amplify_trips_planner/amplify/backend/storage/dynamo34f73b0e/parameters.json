@@ -1,0 +1,7 @@
+{
+    "tableName": "Trips",
+    "partitionKeyName": "TripID",
+    "partitionKeyType": "S",
+    "sortKeyName": "TripName",
+    "sortKeyType": "S"
+}

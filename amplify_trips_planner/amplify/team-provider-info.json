@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifytripsplanner4ce57118": {}
+      },
+      "function": {
+        "amplifyTripApiFunction": {
+          "deploymentBucketName": "amplify-amplifytripsplanner-dev-35307-deployment",
+          "s3Key": "amplify-builds/amplifyTripApiFunction-583365675a7833393645-build.zip"
+        }
       }
     }
   }
